@@ -34,7 +34,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center">
             <div className="flex justify-center mb-8">
               <Avatar className="h-32 w-32 border-2 border-primary">
-                <AvatarImage src="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png" alt="Firman Alhadiansyah" />
+                <AvatarImage src="/lovable-uploads/photo_cc_square.png" alt="Firman Alhadiansyah" />
                 <AvatarFallback>FA</AvatarFallback>
               </Avatar>
             </div>
@@ -42,14 +42,14 @@ const Index = () => {
               Firman Alhadiansyah
             </h1>
             <p className="text-xl mb-8 text-gray-200 animate-fade-in" style={{ animationDelay: "200ms" }}>
-              Experienced Software Engineer with expertise in Web Development and IT infrastructure
+            Senior Software Engineer | Backend Developer | Magento & E-Commerce Specialist | PHP, Laravel, Magento, N8N, Shopify | 9+ Years in Scalable Web Solutions
             </p>
             <div className="flex justify-center gap-4 animate-fade-in" style={{ animationDelay: "400ms" }}>
               <Button asChild>
-                <a href="#contact">Get in Touch</a>
+                <a href="#about">Get in Touch</a>
               </Button>
               <Button variant="outline" asChild className="bg-black/20 backdrop-blur-sm border-white/20 text-white hover:text-white hover:bg-black/40">
-                <a href="#experience">View Experience</a>
+                <a href="#projects">View Projects</a>
               </Button>
             </div>
           </div>
@@ -57,41 +57,35 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <Section id="about" title="About Me">
+      <Section id="about" title="About">
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col md:flex-row gap-6 items-start">
-            <Avatar className="h-24 w-24 border-2 border-primary hidden md:flex">
-              <AvatarImage src="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png" alt="Firman Alhadiansyah" />
-              <AvatarFallback>FA</AvatarFallback>
-            </Avatar>
             <div>
               <p className="mb-4">
-                Experienced Software Engineer with over 8 years of web development and IT infrastructure expertise, working as a back-end and front-end developer for the projects and products at e-commerce web applications, specializing in Magento 2, PHP, GraphQL, Docker, and REST development.
+                Experienced <strong>Software Engineer</strong> with over <strong>11 years in web development and IT infrastructure</strong>, currently working as a <strong>Technical Lead at Icube by Sirclo</strong>. Successfully led <strong>15+ projects</strong> and delivered <strong>16+ e-commerce web applications</strong>, specializing in <strong>Magento 2, PHP, GraphQL, Docker, and OMS development</strong>.
               </p>
               <p>
-                Skilled in creating scalable and maintainable applications. Passionate about delivering high-quality solutions and continuously learning new technologies.
+              Strong background in system integration, cloud computing, and backend architecture.
               </p>
             </div>
-          </div>
           <Card>
             <CardContent className="p-6">
               <h3 className="font-semibold mb-2">Contact Information</h3>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-primary" />
-                  <a href="mailto:firman@example.com" className="text-sm hover:text-primary transition-colors">
-                    firman@example.com
+                  <a href="mailto:firman.alhadiansyah@gmail.com" className="text-sm hover:text-primary transition-colors">
+                    firman.alhadiansyah@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-primary" />
-                  <a href="tel:+6282225572870" className="text-sm hover:text-primary transition-colors">
-                    +62 822-2557-2870
+                  <a href="tel:+6283821716492" className="text-sm hover:text-primary transition-colors">
+                    +62 838-2171-6492
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Contact className="w-4 h-4 text-primary" />
-                  <span className="text-sm">Jakarta, Indonesia</span>
+                  <span className="text-sm">Cimahi, Indonesia</span>
                 </div>
               </div>
             </CardContent>
@@ -103,71 +97,142 @@ const Index = () => {
       <Section id="experience" title="Work Experience" className="bg-secondary/30">
         <Timeline>
           <TimelineItem 
-            title="Senior Software Engineer" 
-            organization="PT. Merdeka.com"
-            date="Nov 2020 - Present"
-            location="Jakarta, Indonesia"
+            title="Tech Lead" 
+            organization="Icube by Sirclo"
+            date="Sep 2022 - Present"
+            location="Yogyakarta, Indonesia. Remote from Cimahi"
           >
             <ul className="list-disc list-outside ml-4 space-y-2">
-              <li>Analyzed and optimized Magento 2 modules to improve functional workflow based on client needs.</li>
-              <li>Extended and customized Magento 2 modules to build a functional and reliable application.</li>
-              <li>Built and configured REST APIs to enable services like image batch processes.</li>
-              <li>Configured and maintained MySQL database for data storage and optimization.</li>
-              <li>Created system designs, implemented application workflows, and led all phases of project development using REST APIs and GraphQL.</li>
+              <li>Led end-to-end project planning, scope estimation, and resource allocation to ensure timely and cost-effective delivery.</li>
+              <li>Designed scalable technical architectures and optimized development workflows for high-performance web applications.</li>
+              <li>Directed daily scrum meetings, task assignments, and sprint reviews to maintain progress and team alignment.</li>
+              <li>Managed CI/CD pipelines and branching strategies (GitHub/GitLab) for smooth deployment using Jenkins and Buildkite.</li>
+              <li>Conducted code reviews, QA testing, and production monitoring to ensure high system stability and minimal post-release issues.</li>
             </ul>
             <div className="mt-3">
               <h4 className="text-sm font-semibold mb-1">Key Achievements:</h4>
               <ul className="list-disc list-outside ml-4 space-y-1">
-                <li>Increased application performance by optimizing code structure and database queries.</li>
-                <li>Successfully integrated third-party modules with existing systems.</li>
-                <li>Reduced page load time by 40% by implementing advanced caching.</li>
+                <li>Successfully delivered 10 web applications across 7 projects, helping clients increase e-commerce efficiency.</li>
+                <li>Maintained project timelines with 100% on-time go-lives, while keeping bug reports under 5% post-deployment.</li>
+                <li>Ensured project budgets stayed within scope, keeping resource usage under allocated limits by 10–15%.</li>
+              </ul>
+            </div>
+          </TimelineItem>
+          
+          <TimelineItem 
+            title="Software Engineer"
+            organization="Icube by Sirclo"
+            date="Feb 2020 - Aug 2022"
+            location="Yogyakarta, Indonesia. Remote from Cimahi"
+          >
+            <ul className="list-disc list-outside ml-4 space-y-2">
+              <li>Developed and customized Magento 2 modules to support scalable e-commerce features tailored to client needs.</li>
+              <li>Built and maintained backend services using PHP, REST APIs, and GraphQL, enabling seamless system integrations.</li>
+              <li>Designed and implemented centralized Order Management Systems (OMS) to streamline order flows across multiple sales channels.</li>
+              <li>Implemented N8N workflows, Pub/Sub, and RabbitMQ to support automation and real-time communication between systems.</li>
+              <li>Integrated shipping providers, payment gateways, ERP systems, and third-party services (Google, Facebook, SAP) for omnichannel support.</li>
+            </ul>
+            <div className="mt-3">
+              <h4 className="text-sm font-semibold mb-1">Key Achievements:</h4>
+              <ul className="list-disc list-outside ml-4 space-y-1">
+                <li>Successfully delivered 4 major projects and 4 web apps, contributing to increase in client operational efficiency.</li>
+                <li>Created and deployed 10+ custom Magento 2 modules, accelerating development and reducing implementation time.</li>
+                <li>Maintained on-time delivery across all projects, achieving less than 5% post-deployment bug/feedback rate.</li>
+              </ul>
+            </div>
+          </TimelineItem>
+          
+          <TimelineItem 
+            title="Backend Developer"
+            organization="Kemana Teknologi Solusi"
+            date="Apr 2017 - Jan 2020"
+            location="Bandung, Indonesia"
+          >
+            <ul className="list-disc list-outside ml-4 space-y-2">
+              <li>Installed and configured Magento 1 and 2 modules, ensuring secure and scalable application performance.</li>
+              <li>Designed and developed custom Magento modules tailored to client-specific workflows, improving operational efficiency.</li>
+              <li>Built and maintained RESTful APIs to enable seamless data integration between systems.</li>
+              <li>Developed backend systems using PHP and MySQL, focusing on performance optimization and maintainability.</li>
+              <li>Implemented and customized frontend components using HTML, CSS, and JavaScript, ensuring responsive and intuitive UI.</li>
+            </ul>
+            <div className="mt-3">
+              <h4 className="text-sm font-semibold mb-1">Key Achievements:</h4>
+              <ul className="list-disc list-outside ml-4 space-y-1">
+                <li>Launched 5 production-ready web applications, contributing to increase in client sales.</li>
+                <li>Improved system reliability and user experience by reducing frontend load time by 30% through optimized code and structure.</li>
+                <li>Enhanced API performance and maintainability, reducing integration-related support tickets.</li>
               </ul>
             </div>
           </TimelineItem>
           
           <TimelineItem 
             title="IT Support Technician"
-            organization="Surya Citra Televisi"
-            date="Nov 2019 - Oct 2020"
-            location="Jakarta, Indonesia"
+            organization="Kemana Teknologi Solusi"
+            date="Nov 2016 - Mar 2017"
+            location="Bandung, Indonesia"
           >
             <ul className="list-disc list-outside ml-4 space-y-2">
-              <li>Provided user support with hardware and software issues for 300+ employees.</li>
-              <li>Configured and deployed Windows and Linux OS server clusters, including fault-tolerant systems.</li>
-              <li>Installed and maintained network equipment including routers, firewalls, switches, and Wi-Fi APs.</li>
-              <li>Designed multi-branch network topology for expanding the organization's reach.</li>
-              <li>Implemented backup strategies to ensure data integrity and disaster recovery.</li>
+              <li>Installed and maintained LAN infrastructure to ensure secure, high-performance internal network connectivity.</li>
+              <li>Configured and optimized Mikrotik routers and wireless access points for stable and seamless office-wide internet access.</li>
+              <li>Deployed and managed web servers using Linux/Ubuntu, Nginx/Apache, firewalls, and MySQL to support internal and client-facing apps.</li>
+              <li>Installed and configured Windows and Linux OS on user devices, including development environments for the web team.</li>
+              <li>Provided day-to-day technical support to internal staff, resolving hardware/software issues and ensuring minimal downtime.</li>
             </ul>
+            <div className="mt-3">
+              <h4 className="text-sm font-semibold mb-1">Key Achievements:</h4>
+              <ul className="list-disc list-outside ml-4 space-y-1">
+                <li>Improved internal network stability by reducing connectivity issues through optimized router and access point configurations.</li>
+                <li>Cut average workstation setup time with a streamlined OS and app installation process.</li>
+                <li>Maintained 99% system uptime, supporting uninterrupted development operations across the company.</li>
+              </ul>
+            </div>
           </TimelineItem>
           
           <TimelineItem 
-            title="Software Engineer"
-            organization="Radhian Tekno Solusi"
-            date="Jul 2018 - Sep 2019"
-            location="Jakarta, Indonesia"
+            title="Network Engineer"
+            organization="Business Software Solution"
+            date="Jul 2014 - Oct 2016"
+            location="Bandung, Indonesia"
           >
             <ul className="list-disc list-outside ml-4 space-y-2">
-              <li>Developed web interfaces using PHP, MySQL, REST APIs, and GraphQL creating scalable applications.</li>
-              <li>Designed database structures using MySQL and MongoDB for efficient data storage.</li>
-              <li>Implemented and optimized stored procedures in MySQL to enhance application performance.</li>
-              <li>Created REST APIs for platform integrations, enabling integration with third-party services.</li>
-              <li>Supported QA and production environments, assuring high standards of code quality.</li>
+              <li>Designed and implemented secure LAN and DMZ network infrastructures for government and enterprise clients across Indonesia.</li>
+              <li>Configured and maintained routers (Mikrotik, Cisco) and enterprise firewalls (Endian, pfSense, Fortinet, Cisco, SonicWall) to ensure secure and optimized traffic flow.</li>
+              <li>Deployed and managed web servers (Linux/Ubuntu, Apache/Nginx, MySQL) and Windows Server systems for virtualization, databases, email, and application hosting.</li>
+              <li>Installed and supported SAN and NAS storage systems to meet growing data and performance requirements.</li>
+              <li>Provided end-to-end IT infrastructure support, including workstation setup, OS installation, and dev environment configuration for end users.</li>
             </ul>
+            <div className="mt-3">
+              <h4 className="text-sm font-semibold mb-1">Key Achievements:</h4>
+              <ul className="list-disc list-outside ml-4 space-y-1">
+                <li>Improved internal network stability by reducing connectivity issues through optimized router and access point configurations.</li>
+                <li>Cut average workstation setup time with a streamlined OS and app installation process.</li>
+                <li>Maintained 99% system uptime, supporting uninterrupted development operations across the company.</li>
+              </ul>
+            </div>
           </TimelineItem>
           
           <TimelineItem 
-            title="Software Engineer"
-            organization="Centro Media Indonesia"
-            date="Jul 2017 - Jun 2018"
+            title="Network Engineer"
+            organization="Lintas Media Danawa"
+            date="Jul 2013 - Jun 2014"
             location="Jakarta, Indonesia"
             isLast={true}
           >
             <ul className="list-disc list-outside ml-4 space-y-2">
-              <li>Designed and deployed internal CMS from analysis to migration for WordPress, Drupal, and PHP sites.</li>
-              <li>Improved user experience and interface by implementing responsive design principles.</li>
-              <li>Collaborated with cross-functional teams to achieve project goals and ensure client satisfaction.</li>
-              <li>Maintained and updated existing websites, improving functionality and security.</li>
+              <li>Designed and deployed secure LAN and DMZ infrastructures for enterprise clients to support stable and efficient network operations.</li>
+              <li>Installed and configured Linux-based web servers with Nginx/Apache, firewalls, and MySQL to support high-availability applications.</li>
+              <li>Provisioned and customized cloud computing environments to improve client scalability and deployment speed.</li>
+              <li>Monitored and maintained client servers in data centers, ensuring uptime and rapid incident response.</li>
+              <li>Collaborated with internal teams to align infrastructure deployment with application and business requirements.</li>
             </ul>
+            <div className="mt-3">
+              <h4 className="text-sm font-semibold mb-1">Key Achievements:</h4>
+              <ul className="list-disc list-outside ml-4 space-y-1">
+                <li>Delivered 3+ infrastructure projects, improving network reliability and uptime for multiple enterprise clients.</li>
+                <li>Reduced server provisioning time by implementing automated deployment templates.</li>
+                <li>Achieved 99.5% server uptime, minimizing service disruptions for high-traffic client systems.</li>
+              </ul>
+            </div>
           </TimelineItem>
         </Timeline>
       </Section>
@@ -176,28 +241,13 @@ const Index = () => {
       <Section id="education" title="Education">
         <Timeline>
           <TimelineItem
-            title="Bachelor's in Engineering, Information Technology"
-            organization="Gunadarma University"
+            title="Informatics Engineering, Indonesian Computer University"
+            organization="Bachelor Degree"
             date="2014 - 2018"
-            location="Depok, Indonesia"
-          >
-            <p>Graduated with a focus on web development and information systems.</p>
-          </TimelineItem>
-
-          <TimelineItem
-            title="LinkedIn Learning"
-            organization="Online Courses"
-            date="March 2022"
+            location="Bandung, Indonesia"
             isLast={true}
           >
-            <ul className="list-disc list-outside ml-4 space-y-1">
-              <li>Building RESTful APIs with PHP for Modern Web Development</li>
-              <li>Advanced MySQL Techniques for Database Optimization</li>
-              <li>Docker: Containerization for Full Stack Applications</li>
-              <li>CI/CD Pipelines for Web Applications</li>
-              <li>GraphQL: Building Efficient Data APIs</li>
-              <li>Security Best Practices for Web Applications</li>
-            </ul>
+            <p>Graduated with GPA 3.62 (Cumlaude)</p>
           </TimelineItem>
         </Timeline>
         
@@ -206,20 +256,20 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             <Card>
               <CardContent className="p-4">
-                <h4 className="font-semibold">Adobe Certified Associate</h4>
-                <p className="text-sm text-muted-foreground">Magento 2 Certified Developer</p>
+                <h4 className="font-semibold">LinkedIn Learning – Aug 2023</h4>
+                <p className="text-sm text-muted-foreground">Building Trust, Crafting Questions to Make Better Decisions, Critical Thinking and Problem Solving, Cultivating a Growth Mindset, Developing Critical Thinking, Decision-Making, and Problem-Solving Skills, Making Quick Decisions, The Six Biases of Decision-Making</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-4">
-                <h4 className="font-semibold">Oracle Certified Professional</h4>
-                <p className="text-sm text-muted-foreground">MySQL 5.7 Database Administrator</p>
+                <h4 className="font-semibold">Adobe Commerce – Mar 2017</h4>
+                <p className="text-sm text-muted-foreground">Core Principles for Theming in Magento 2 (v2.1), Fundamentals of Magento 2 Development (v2.1)</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-4">
-                <h4 className="font-semibold">Cisco Certified</h4>
-                <p className="text-sm text-muted-foreground">Network Associate (CCNA)</p>
+                <h4 className="font-semibold">Cisco – Sep 2016</h4>
+                <p className="text-sm text-muted-foreground">CCNA (Cisco Certified Network Associate)</p>
               </CardContent>
             </Card>
           </div>
@@ -230,50 +280,99 @@ const Index = () => {
       <Section id="skills" title="Skills" className="bg-secondary/30">
         <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <h3 className="text-lg font-semibold mb-3">Programming Languages</h3>
+            <h3 className="text-lg font-semibold mb-3">Backend Development</h3>
             <div className="flex flex-wrap gap-2 mb-6">
               <SkillTag>PHP</SkillTag>
-              <SkillTag>JavaScript</SkillTag>
+              <SkillTag>Magento 1 & 2</SkillTag>
               <SkillTag>MySQL</SkillTag>
               <SkillTag>REST API</SkillTag>
               <SkillTag>GraphQL</SkillTag>
-              <SkillTag>MongoDB</SkillTag>
-              <SkillTag>CSS</SkillTag>
-              <SkillTag>HTML</SkillTag>
+              <SkillTag>Order Management System (OMS)</SkillTag>
+              <SkillTag>Laravel</SkillTag>
+              <SkillTag>CodeIgniter</SkillTag>
+              <SkillTag>Shopify</SkillTag>
             </div>
             
-            <h3 className="text-lg font-semibold mb-3">Frameworks & Libraries</h3>
+            <h3 className="text-lg font-semibold mb-3">Frontend Development</h3>
             <div className="flex flex-wrap gap-2 mb-6">
-              <SkillTag>Magento 2</SkillTag>
-              <SkillTag>Laravel</SkillTag>
-              <SkillTag>WordPress</SkillTag>
-              <SkillTag>CodeIgniter</SkillTag>
-              <SkillTag>jQuery</SkillTag>
-              <SkillTag>React</SkillTag>
-              <SkillTag>Docker</SkillTag>
-              <SkillTag>Git</SkillTag>
+              <SkillTag>HTML</SkillTag>
+              <SkillTag>CSS</SkillTag>
+              <SkillTag>JavaScript</SkillTag>
             </div>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-3">DevOps & Infrastructure</h3>
             <div className="flex flex-wrap gap-2 mb-6">
-              <SkillTag>Linux</SkillTag>
+              <SkillTag>Docker</SkillTag>
+              <SkillTag>CI/CD (Jenkins, Buildkite)</SkillTag>
+              <SkillTag>Nginx</SkillTag>
+              <SkillTag>Apache</SkillTag>
+              <SkillTag>Linux (Ubuntu)</SkillTag>
               <SkillTag>Windows Server</SkillTag>
-              <SkillTag>Network Management</SkillTag>
-              <SkillTag>AWS</SkillTag>
-              <SkillTag>CI/CD</SkillTag>
-              <SkillTag>Shell Scripting</SkillTag>
+              <SkillTag>Github</SkillTag>
+              <SkillTag>Gitlab</SkillTag>
             </div>
             
-            <h3 className="text-lg font-semibold mb-3">Professional Skills</h3>
+            <h3 className="text-lg font-semibold mb-3">Cloud & Hosting</h3>
             <div className="flex flex-wrap gap-2">
-              <SkillTag>Team Leadership</SkillTag>
-              <SkillTag>Project Management</SkillTag>
-              <SkillTag>Agile Methodologies</SkillTag>
-              <SkillTag>Problem Solving</SkillTag>
-              <SkillTag>Technical Documentation</SkillTag>
-              <SkillTag>Client Communication</SkillTag>
+              <SkillTag>Google Cloud (Pub/Sub, Storage, Firebase, Analytics)</SkillTag>
+              <SkillTag>Server Maintenance</SkillTag>
+              <SkillTag>Cloud Provisioning</SkillTag>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Networking & Security</h3>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <SkillTag>LAN/DMZ Setup</SkillTag>
+              <SkillTag>Firewall (pfSense, Fortinet, SonicWall, Cisco, Endian)</SkillTag>
+              <SkillTag>Mikrotik</SkillTag>
+              <SkillTag>Cisco Routers</SkillTag>
+              <SkillTag>VPN</SkillTag>
+            </div>
+            
+            <h3 className="text-lg font-semibold mb-3">System Integration</h3>
+            <div className="flex flex-wrap gap-2">
+              <SkillTag>Payment Gateways (Xendit, Midtrans, Iris)</SkillTag>
+              <SkillTag>Shipping APIs (JNE, Sicepat, Anteraja, etc.)</SkillTag>
+              <SkillTag>SAP</SkillTag>
+              <SkillTag>ERP</SkillTag>
+              <SkillTag>Middleware API</SkillTag>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Automation & Workflow</h3>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <SkillTag>N8N</SkillTag>
+              <SkillTag>Message Queue (RabbitMQ, Google Pub/Sub)</SkillTag>
+            </div>
+            
+            <h3 className="text-lg font-semibold mb-3">Monitoring & Testing</h3>
+            <div className="flex flex-wrap gap-2">
+              <SkillTag>QA Testing</SkillTag>
+              <SkillTag>Production Monitoring</SkillTag>
+              <SkillTag>Bug Resolution</SkillTag>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Leadership & Team Management</h3>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <SkillTag>Mentoring developers</SkillTag>
+              <SkillTag>Delegating tasks</SkillTag>
+              <SkillTag>Facilitating scrum meetings</SkillTag>
+              <SkillTag>Resolving blockers</SkillTag>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Problem Solving</h3>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <SkillTag>Debugging complex issues</SkillTag>
+              <SkillTag>Optimizing systems</SkillTag>
+              <SkillTag>Handling production incidents</SkillTag>
             </div>
           </div>
         </div>
@@ -283,52 +382,126 @@ const Index = () => {
       <Section id="projects" title="Projects">
         <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
           <ProjectCard 
-            title="DR. IAN" 
-            description="Responsive e-commerce website for a healthcare provider featuring appointment scheduling and product sales."
-            technologies={["React", "Node.js", "MongoDB", "Express", "Responsive Design"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="ID Trapo Asia (2025)" 
+            description="I enhanced the order management workflow for Trapo Asia by integrating its Shopify store with a custom OMS. My responsibilities included building modules for order lifecycle management and performance reporting, ensuring smooth coordination across business functions."
+            technologies={["Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "Shopify", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Trapo_Responsive.png"
+            url="www.trapo.asia"
           />
           <ProjectCard 
-            title="JLPT N2" 
-            description="Educational platform for Japanese language learners preparing for the JLPT N2 exam with practice tests and study materials."
-            technologies={["Vue.js", "Firebase", "Tailwind CSS", "i18n"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="Planet Surf (2025)" 
+            description="I developed a Shopify-based e-commerce site integrated with an OMS. The solution supported real-time product syncing and seamless order fulfillment. I ensured timely delivery and compatibility across systems."
+            technologies={["Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "Shopify", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Planetsurf_Responsive.png"
+            url="www.planetsurfonline.com"
           />
           <ProjectCard 
-            title="DESTREE" 
-            description="Real estate management system for property listings and client management with advanced filtering options."
-            technologies={["Angular", "PHP", "MySQL", "Bootstrap", "Google Maps API"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="BCA Bangga Lokal (2024)" 
+            description="I was responsible for developing the integration between the OMS platform and external advertising systems, specifically Google Ads and Meta Ads. My work centralized campaign tracking and performance data within the OMS, enabling the client to manage digital marketing insights directly from their operational backend. This integration helped streamline advertising effectiveness and budget optimization."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Banggalokal_Responsive.png"
           />
           <ProjectCard 
-            title="OTTO" 
-            description="Mobile application for food delivery service with real-time order tracking and payment integration."
-            technologies={["React Native", "Redux", "Firebase", "Stripe API"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="Urbanicon (2024)" 
+            description="I built e-commerce website for both Urbanicon and Fossil, with unified backend infrastructure. The project also included OMS customization for brand-specific processes. Both sites launched successfully with smooth operational integration."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Time_Responsive.png"
+            url="www.urbanicon.id"
           />
           <ProjectCard 
-            title="UHSCS" 
-            description="University health services management system for appointment scheduling and medical records management."
-            technologies={["PHP", "Laravel", "MySQL", "jQuery", "HIPAA Compliance"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="Fossil (2024)" 
+            description="I built e-commerce website for both Urbanicon and Fossil, with unified backend infrastructure. The project also included OMS customization for brand-specific processes. Both sites launched successfully with smooth operational integration."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Time_Responsive.png"
+            url="www.fossil.co.id"
           />
           <ProjectCard 
-            title="HERITAGE" 
-            description="Cultural heritage documentation platform featuring interactive maps and multimedia content for historical sites."
-            technologies={["JavaScript", "Leaflet.js", "MongoDB", "Express", "AWS S3"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="Sinarmas (2023)" 
+            description="I developed and maintained custom OMS components for Bixbox’s B2B operations. These included warehouse syncing features and customized invoicing logic. The system remained stable and responsive during business-critical periods."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Sinarmas_Responsive.png"
+            url="bixbox.co.id"
           />
           <ProjectCard 
-            title="CO-OP" 
-            description="Mobile app for community cooperative businesses to manage shared resources and coordinate activities."
-            technologies={["Flutter", "Dart", "Firebase", "Google Cloud"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="Belanjaku (2023)" 
+            description="I provided continuous support and module development for Belanjaku’s OMS. Enhancements included support for time-sensitive promotions and customer segmentation. The system delivered accurate order handling during peak events."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Belanjaku_Responsive.png"
+            url="belanjaku.online"
           />
           <ProjectCard 
-            title="AGRITECH" 
-            description="Agricultural technology platform for farmers to monitor crops, track weather patterns, and optimize irrigation systems."
-            technologies={["IoT", "Python", "Django", "React", "TensorFlow"]}
-            imageSrc="/lovable-uploads/9354212f-2de0-4dda-b0ee-c8456d56ce9a.png"
+            title="Biofarma Medbiz (2022)" 
+            description="Working on Biofarma Medbiz, I developed custom OMS features for pharmaceutical order handling. I enhanced modules for stock, compliance, and multi-warehouse support. My efforts ensured the platform could meet operational and regulatory needs."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "RabbitMQ"]}
+            imageSrc="/lovable-uploads/Biofarma_Responsive.png"
+            url="medbiz.id"
+          />
+          <ProjectCard 
+            title="Swift OMS (2021)" 
+            description="I maintained and optimized the Swift OMS platform used across multiple clients. My focus was on scaling its performance and customizing order processing logic. The system’s robustness improved under increasing transactional load."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "N8N", "Git", "Docker", "RabbitMQ", "Pub/Sub", "Firebase", "Analytics"]}
+            imageSrc="/lovable-uploads/Swiftoms_Responsive.png"
+            url="omsdemo-pwa.getswift.asia"
+          />
+          <ProjectCard 
+            title="9to9 (2020)" 
+            description="For both brands, I provided technical support for their Magento-based OMS. I implemented shared enhancements for order processing and fulfillment. My role ensured efficient back-office operations and successful promotional campaign support."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "Git", "Docker"]}
+            imageSrc="/lovable-uploads/9to9_Responsive.png"
+            url="9to9.co.id"
+          />
+          <ProjectCard 
+            title="Hush Puppies (2020)" 
+            description="For both brands, I provided technical support for their Magento-based OMS. I implemented shared enhancements for order processing and fulfillment. My role ensured efficient back-office operations and successful promotional campaign support."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "Git", "Docker"]}
+            imageSrc="/lovable-uploads/9to9_Responsive.png"
+            url="www.hushpuppies.co.id"
+          />
+          <ProjectCard 
+            title="Royal Canin (2020)" 
+            description="I contributed to the maintenance and customization of Royal Canin’s order management system (OMS). This involved developing modules that improved logistics workflows and enabled better stock handling. The system was kept stable and efficient for high-volume operations."
+            technologies={["Magento 2", "Omni channel OMS", "PHP", "MySQL", "Git", "Docker"]}
+            imageSrc="/lovable-uploads/Royalcanin_Responsive.png"
+            url="www.royalcanin.com"
+          />
+          <ProjectCard 
+            title="Rocktape (2019)" 
+            description="I designed and launched an e-commerce site for Rocktape that aligned with its brand identity. The site was customized to offer a smooth shopping experience, flexible product presentation, and scalable infrastructure to handle promotional traffic."
+            technologies={["Magento", "PHP", "MySQL", "Git", "Docker", "Javascript", "HTML", "CSS"]}
+            imageSrc="/lovable-uploads/Rocktape_Responsive.png"
+          />
+          <ProjectCard 
+            title="Lejel Shopping (2018)" 
+            description="I supported Lejel Shopping’s existing e-commerce site by maintaining and optimizing key modules. I extended features for localized promotions and handled custom development tasks to enhance functionality. The result was a stable and user-friendly shopping platform."
+            technologies={["Magento", "PHP", "MySQL", "Git", "Docker", "Javascript", "HTML", "CSS"]}
+            imageSrc="/lovable-uploads/Lejel_Responsive.png"
+            url="www.lejel.co.id"
+          />
+          <ProjectCard 
+            title="Antenna Pointer (2018)" 
+            description="As a final thesis project, I developed a native Android application designed to help users align antennas. The app utilized GPS and orientation sensors to guide users in real time. It was built using Java and Android Studio, delivering a practical and functional tool."
+            technologies={["Java", "Android Studio", "XML", "JSON", "SQLite", "GPS", "Orientation sensors"]}
+            imageSrc="/lovable-uploads/Antennapointer_Responsive.png"
+          />
+          <ProjectCard 
+            title="Ranch Market (2018)" 
+            description="For Ranch Market, I provided maintenance support while also developing custom modules to support advanced catalog and pricing rules. Additionally, I created REST APIs to enable smooth integration with third-party systems such as payment and delivery services."
+            technologies={["Magento", "PHP", "MySQL", "Git", "Docker", "Javascript", "HTML", "CSS"]}
+            imageSrc="/lovable-uploads/Ranch_Responsive.png"
+            url="www.kesupermarket.com"
+          />
+          <ProjectCard 
+            title="Waterbom Bali (2017)" 
+            description="I built a Magento-based e-commerce platform to support online ticket and merchandise sales. My role included structuring the site for fast performance and seamless booking flow. The final delivery enabled Waterbom Bali to scale its online presence for seasonal traffic surges."
+            technologies={["Magento", "PHP", "MySQL", "Git", "Docker", "Javascript", "HTML", "CSS"]}
+            imageSrc="/lovable-uploads/Waterbom_Responsive.png"
+            url="www.waterbom-bali.com"
+          />
+          <ProjectCard 
+            title="Meds Tech (2017)" 
+            description="I developed a full-featured e-commerce website tailored to the retail needs of the client. The project involved implementing a custom product catalog, shopping cart, and checkout functionality. I delivered the platform with a responsive design optimized for usability and performance."
+            technologies={["Magento", "PHP", "MySQL", "Git", "Docker", "Javascript", "HTML", "CSS"]}
+            imageSrc="/lovable-uploads/Medstech_Responsive.png"
           />
         </div>
       </Section>
@@ -345,21 +518,21 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-primary" />
-                  <a href="mailto:firman@example.com" className="hover:text-primary transition-colors">
-                    firman@example.com
+                  <a href="mailto:firman.alhadiansyah@gmail.com" className="hover:text-primary transition-colors">
+                    firman.alhadiansyah@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-primary" />
-                  <a href="tel:+6282225572870" className="hover:text-primary transition-colors">
-                    +62 822-2557-2870
+                  <a href="tel:+6283821716492" className="hover:text-primary transition-colors">
+                    +62 838-2171-6492
                   </a>
                 </div>
               </div>
             </div>
             <div>
               <h3 className="font-semibold mb-2">Location</h3>
-              <p>Jakarta, Indonesia</p>
+              <p>Cimahi, Indonesia</p>
               <p className="mt-4 text-sm text-muted-foreground">
                 Available for remote work and relocations for the right opportunity.
               </p>
