@@ -551,18 +551,18 @@ const Index = () => {
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-4">
                 <li>
-                  <a href="#" className="text-sm text-muted-foreground hover:text-primary">
+                  <a href="https://www.linkedin.com/in/falhadiansyah" className="text-sm text-muted-foreground hover:text-primary">
                     LinkedIn
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-sm text-muted-foreground hover:text-primary">
+                  <a href="https://github.com/falhadiansyah" className="text-sm text-muted-foreground hover:text-primary">
                     GitHub
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Twitter
+                  <a href="https://www.instagram.com/falhadiansyah" className="text-sm text-muted-foreground hover:text-primary">
+                    Instagram
                   </a>
                 </li>
               </ul>
